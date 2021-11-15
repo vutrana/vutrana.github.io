@@ -85,3 +85,8 @@ main h1 {
 .main__photo {
   text-align: center;
 }
+
+.main__photo p {
+  font-size: 0.8rem;
+  width: 100%;
+}
