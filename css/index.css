@@ -55,9 +55,7 @@ main {
 }
 
 .main__social {
-  margin: 0 auto;
-  width: 75%;
-  text-align: center;
+  text-align: left;
 }
 
 .main__social a {
