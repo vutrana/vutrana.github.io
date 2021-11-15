@@ -7,90 +7,113 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
+    <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!--link rel="stylesheet" href="https://latex.now.sh/style.css"-->
+    <!-- Font Google -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- BS 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
 
     <title>Vu Tran</title>
   </head>
   <body>
-    <div id="container">
-      <header>
-        <nav class="navigation">
-          <a href="" class="navigation--item navigation--item__active">Home</a>
-          <a href="" class="navigation--item">Research</a>
-          <a href="" class="navigation--item">Teaching</a>
-          <a href="file/VuTran_CV.pdf" class="navigation--item">CV</a>
-        </nav>
-      </header>
+    <header>
+      <nav class="navigation container">
+        <a href="#" class="navigation__item active">Home</a>
+        <a href="./research.html" class="navigation__item">Research</a>
+        <a href="./teaching.html" class="navigation__item">Teaching</a>
+        <a href="file/VuTran_CV.pdf" class="navigation__item">CV</a>
+      </nav>
+    </header>
 
-      <main>
-        <div class="main-img">
-          <img src="img/pic1.jpg" alt="" />
-          <div class="about">
-            <h2>Vu Tran</h2>
-            <p>
-              Ph.D. Student in Economics <br />
-              University of Gothenburg <br />
-            </p>
-            <p>anh.vu.tran@economics.gu.se</p>
-            <p>Research Fields: Labor Economics, Development Economics</p>
-            <p>Topics: Public procurement, Migration</p>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="main__left">
+            <img src="img/pic1.jpg" alt="" />
+            <div class="main__about">
+              <p>
+                PhD Student in Economics <br />
+                University of Gothenburg <br />
+              </p>
+              <p>anh.vu.tran@gu.se</p>
+              <p>
+                <span>Research Fields:</span> Development Economics, Labor
+                Economics
+              </p>
+              <p><span>Topics:</span> Public procurement, Migration</p>
+            </div>
           </div>
-
-          <div class="social">
-            <a href="https://github.com/vutrana" class="socials--item"
-              ><i class="fa fa-github"></i
-            ></a>
-            <a href="https://twitter.com/vutran91" class="socials--item"
-              ><i class="fa fa-twitter"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/trananhvu/"
-              class="socials--item"
-              ><i class="fa fa-linkedin"></i
-            ></a>
-            <a
-              href="https://www.gu.se/en/about/find-staff/anhvutran"
-              class="socials--item"
-              ><i class="fa fa-university"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="main--content">
-          <h1>Vu Tran</h1>
-          <hr />
-          <div class="description">
-            <p>
-              I am a PhD student in Economics at the University of Gothenburg,
-              Sweden. I started my five-year program in 2018.
-            </p>
-
-            <p>
-              My research interest is the intersection between labor and
-              development economics.
-            </p>
-
-            <p>
-              Before moving to Sweden, I worked as a researcher at Mekong
-              Development Research Institute (<a href="http://mdri.org.vn/"
-                >MDRI</a
-              >) in Hanoi, Vietnam where we do applied research in development
-              economics.
-            </p>
-
-            <a href="file/VuTran_CV.pdf">Download my CV</a>
+          <div class="main__social">
+            <a href="https://github.com/vutrana">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://twitter.com/vutran91">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/trananhvu/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://www.gu.se/en/about/find-staff/anhvutran">
+              <i class="fa fa-university"></i>
+            </a>
           </div>
         </div>
-      </main>
-    </div>
+        <div class="col-md-8">
+          <div class="main__right">
+            <h1>Vu Tran</h1>
+            <hr />
+            <div class="description">
+              <p>
+                I am a PhD student in Economics at the University of Gothenburg,
+                Sweden.
+              </p>
+              <p>
+                My research interest is the intersection between labor and
+                development economics.
+              </p>
+              <p>
+                Before moving to Sweden, I worked as a researcher at Mekong
+                Development Research Institute (<a href="http://mdri.org.vn/"
+                  >MDRI</a
+                >) in Hanoi, Vietnam where we do applied research in development
+                economics.
+              </p>
+
+              <a href="file/VuTran_shortCV.pdf">Download my CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+    <!-- BS5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
