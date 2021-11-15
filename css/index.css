@@ -42,11 +42,15 @@ main {
   margin: 24px 0;
 }
 
-.main__left img {
+main .main__left {
+  height: 100vh;
+}
+
+.main__info img {
   width: 100%;
 }
 
-.main__left .main__about {
+.main__info .main__about {
   margin-top: 1rem;
 }
 
