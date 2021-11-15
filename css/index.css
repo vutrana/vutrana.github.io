@@ -168,6 +168,24 @@ section {
   font-weight: 500;
 }
 
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: 0.5;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 767.98px) {
